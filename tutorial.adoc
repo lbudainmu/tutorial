@@ -7,9 +7,9 @@ Author: Lajos Budai
 This tutorial will give a basic idea on WireShark. It will introduce how to setup filters and how to capture unencrypted traffic and why is it way better to use encrypted websites.
 
 == Learning objectives
-*Capture network traffic in our machine
-*Analyze the most common used unsecured traffic
-*Setting up some basic filters on Wireshark
+* Capture network traffic in our machine
+* Analyze the most common used unsecured traffic
+* Setting up some basic filters on Wireshark
 
 == Prerequisites
 
@@ -28,7 +28,7 @@ Lets visit a website where we can reconstruct the website by following the tcp/h
 * Open the http.cap file
 * Set up the filter to only show http traffic ( this is optional, it just help us to learn the filter)
 image::httpfilter.jpg[]
-*Now clik on the followings
+* Now clik on the followings
 image::websitere1.png[]
 Now we can see the whole html code, with this information we can reconstruct the whole website.
 
@@ -37,17 +37,17 @@ It is very simple to save pictures from an unencrypted website as well.
 * Let sopen the http_with_jpegs.cap.gz file
 * Open Export Objects, HTTP
 image::exportimage.png[]
-*Find an image file and simply save it.
+* Find an image file and simply save it.
 
 . Lesson three.
 Now let's connect to the NMU FTP server
-*Go to File Explorer and find [lbudai] on myweb.nmu.edu [this should be your nmuid]
-*If it asks your username and password you are all set and you can skip the next bulletpoint
-*Create a random txt file, and upload it in here. Now delete the file from your computer, and try to open the file from your nmu server.
-*Start capturing the traffic on the interface where we see traffic.
+* Go to File Explorer and find [lbudai] on myweb.nmu.edu [this should be your nmuid]
+* If it asks your username and password you are all set and you can skip the next bulletpoint
+* Create a random txt file, and upload it in here. Now delete the file from your computer, and try to open the file from your nmu server.
+* Start capturing the traffic on the interface where we see traffic.
 image::interface-selection.jpg[]
-*Now we will have way more traffic, so lets make sure to type ftp to the filter bar.
-*The following packets should be in front of us.
+* Now we will have way more traffic, so lets make sure to type ftp to the filter bar.
+* The following packets should be in front of us.
 image::ftp.jpg[]
 
 Now behind the white-black rectangle my password for nmu is hiding. Anyone who could capture this data, can see my very sensitive password. Using FTP without encryption is a bad practice.
@@ -58,7 +58,7 @@ Now behind the white-black rectangle my password for nmu is hiding. Anyone who c
 * Try to find a website with unencrypted traffic, and try to figure out the context by using wireshark, and try to save down some images.
 
 == Reflection
-*What do you think about unencrypted wireless traffic? Can someone capture these kind of traffics from the "air"?
+* What do you think about unencrypted wireless traffic? Can someone capture these kind of traffics from the "air"?
 
 
 asciidoctor-pdf tutorial.adoc
