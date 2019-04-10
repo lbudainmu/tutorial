@@ -27,7 +27,7 @@ This tutorial will give a basic idea on WireShark. It will introduce how to setu
 
 == Instructions
 
-. Lesson one.
+== Lesson one
 Lets visit a website where we can reconstruct the website by following the tcp/http stream.
 * Open the http.cap file
 * Set up the filter to only show http traffic ( this is optional, it just help us to learn the filter)
@@ -39,7 +39,7 @@ image::websitere1.png[]
 
 Now we can see the whole html code, with this information we can reconstruct the whole website.
 
-. Lesson two.
+== Lesson two
 It is very simple to save pictures from an unencrypted website as well.
 * Let sopen the http_with_jpegs.cap.gz file
 * Open Export Objects, HTTP
@@ -48,7 +48,9 @@ image::exportimage.png[]
 
 * Find an image file and simply save it.
 
-. Lesson three.
+== Lesson three
+
+
 Now let's connect to the NMU FTP server
 * Go to File Explorer and find [lbudai] on myweb.nmu.edu [this should be your nmuid]
 * If it asks your username and password you are all set and you can skip the next bulletpoint
