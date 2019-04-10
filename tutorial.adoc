@@ -28,7 +28,7 @@ Lets visit a website where we can reconstruct the website by following the tcp/h
 * Open the http.cap file
 * Set up the filter to only show http traffic ( this is optional, it just help us to learn the filter)
 
-image::httpfilter.jpg[]
+image::httpfilter.png[]
 
 * Now clik on the followings
 
@@ -52,12 +52,12 @@ Now let's connect to the NMU FTP server
 * Create a random txt file, and upload it in here. Now delete the file from your computer, and try to open the file from your nmu server.
 * Start capturing the traffic on the interface where we see traffic.
 
-image::interface-selection.jpg[]
+image::interface-selection.png[]
 * Now we will have way more traffic, so lets make sure to type ftp to the filter bar.
 
 * The following packets should be in front of us.
 
-image::ftp.jpg[]
+image::ftp.png[]
 
 Now behind the white-black rectangle my password for nmu is hiding. Anyone who could capture this data, can see my very sensitive password. Using FTP without encryption is a bad practice.
 
