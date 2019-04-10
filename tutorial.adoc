@@ -29,7 +29,6 @@ Lets visit a website where we can reconstruct the website by following the tcp/h
 * Set up the filter to only show http traffic ( this is optional, it just help us to learn the filter)
 
 image::httpfilter.png[]
-
 * Now clik on the followings
 
 image::websitere1.png[]
