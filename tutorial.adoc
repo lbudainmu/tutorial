@@ -1,4 +1,4 @@
-= Basics of Wireshark
+= Fun with Wireshark
 
 Author: Lajos Budai
 
@@ -69,4 +69,4 @@ Now behind the white-black rectangle my password for nmu is hiding. Anyone who c
 * What do you think about unencrypted wireless traffic? Can someone capture these kind of traffics from the "air"?
 
 
-asciidoctor-pdf tutorial.adoc
+
