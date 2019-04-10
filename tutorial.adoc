@@ -1,4 +1,4 @@
-= Basics of Wireshark
+= Fun with Wireshark
 
 Author: Lajos Budai
 
