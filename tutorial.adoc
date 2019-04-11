@@ -52,6 +52,7 @@ image::exportimage.png[]
 
 
 Now let's connect to the NMU FTP server
+
 * Go to File Explorer and find [lbudai] on myweb.nmu.edu [this should be your nmuid]
 * If it asks your username and password you are all set and you can skip the next bulletpoint
 * Create a random txt file, and upload it in here. Now delete the file from your computer, and try to open the file from your nmu server.
